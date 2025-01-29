@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #34495e;
+    padding: 1rem;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.blog-list {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.blog-list article {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.blog-list article h2 {
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+.blog-list article .read-more {
+    color: #3498db;
+    text-decoration: none;
+}
